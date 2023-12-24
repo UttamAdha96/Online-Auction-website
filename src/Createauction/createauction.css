@@ -1,0 +1,33 @@
+.box{
+    background: #f2f2f2;
+    width: 50rem;
+    height: 28rem;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    padding: 5px;
+    border: 2px solid rgb(231, 127, 47);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 25rem;
+    font-size: larger;
+    margin: 5px;
+}
+
+.breakC{
+    width: 60%;
+    height: 2px;
+    background-color: rgb(40, 40, 40);
+}
+.details> input{
+    width: 15rem;
+    height: 25px;
+}

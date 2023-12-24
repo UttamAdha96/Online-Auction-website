@@ -1,0 +1,17 @@
+.body2{
+    background: #f2f2f2;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 2px;
+}
+.container1{
+    display: flex;
+    width: 25vw;
+    height: 40vh;
+    background: white;
+    flex-direction: column;
+    padding: 8px;
+}

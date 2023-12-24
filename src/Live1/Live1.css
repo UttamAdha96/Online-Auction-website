@@ -1,0 +1,74 @@
+.Livesection{
+    background: #f2f2f2;
+}
+.heading{
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.i2-name{
+    color: rgb(184, 81, 30);
+    font-size: 3.5rem;
+    padding-top: 0.3rem;
+    margin-left: 4rem;
+}
+.seeall{
+    width: 15rem;
+    padding-top: 1.7rem;
+    height: 3rem;
+}
+.i2-button{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.contents{
+    height: 26rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.cards{
+    height: 25rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:last baseline;
+    background: white;
+    border-radius: 0.8rem ;
+}
+
+.cards>a{
+    text-decoration: none;
+}
+.itemname {
+    width: 18rem;
+    height: 2rem;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+}
+.liveimg>img{
+    width: 18rem;
+    height: 18rem;
+    margin-top: 5px;
+}
+.price{
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 7.5rem;
+    color: black;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+}
+.price:hover{
+    background-color: black;
+    color: white;
+}
