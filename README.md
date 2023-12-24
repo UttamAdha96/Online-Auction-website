@@ -1,18 +1,26 @@
-online auction website front-end
+Online auction website front-end
+
 OverView:
+
 Online Auction website is a Live Bidding platform built on ReactJS, where users can bid for any Products. This provides user to add his product along with the images , Once the Product get Approval from Admin , user can provide Date and Time for the Bidding Event to occur, User can bid live on other Products available for Bidding, The code in this repository covers front end of this project.
 
 Quick Start
+
 Clone
+
 Clone this repo to your local machine using https://github.com/UttamAdha96/Online-Auction-website.git
+
 Dependencies and installation
+
 Install server dependencies
+
 npm install
+
 Install client dependencies
 cd client
 npm install
 Front End
-           1. axios npm install --save axios
+           1. axios npm install --save axios<br/>
            2. react npm create-react-app
            3. react-router-dom npm install --save react-router-dom
            4. socket.io-client npm i socket.io-client
